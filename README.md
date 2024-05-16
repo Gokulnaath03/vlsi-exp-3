@@ -1,16 +1,16 @@
 # vlsi-exp-3
 
-#SIMULATION AND IMPLEMENTATION OF MULTIPLIER:
+# SIMULATION AND IMPLEMENTATION OF MULTIPLIER:
 
-#AIM:
+## AIM:
 
  To simulate and synthesis multiplier using VIVADO.
 
- #APPARATUS REQUIRED:
+ ## APPARATUS REQUIRED:
 
  VIVADO 2023.2
 
-#PROCEDURE:
+## PROCEDURE:
 
 STEP:1 Start the Vivado, Select and Name the New project.
 STEP:2 Select the device family, device, package and speed.
@@ -25,11 +25,11 @@ the outputs as per the truth table.
 
 
 
-#2-BIT MULTIPLIER:
+## 2-BIT MULTIPLIER:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-3/assets/167178811/ed593f34-809d-4ffa-962b-f035f52820ea)
 
-#PROGRAM:
+## PROGRAM:
 
 module ha(a,b,s,carry);
 input a,b;
@@ -45,16 +45,16 @@ ha h1(a[0]&b[1],a[1]&b[0],c[1],w);
 ha h2(a[1]&b[1],w,c[2],c[3]);
 endmodule
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-3/assets/167178811/7c98dbcc-98fa-4f12-8569-cf1aea46406d)
 
-#4-BIT MULTIPLIER:
+## 4-BIT MULTIPLIER:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-3/assets/167178811/a5a2d057-c3d6-475b-8c81-3e5fe30fa67c)
 
 
-#PROGRAM:
+## PROGRAM:
 
 module ha(a,b,sum,carry);
 input a,b;
@@ -88,10 +88,10 @@ fa f8(w[17],w[14],a[3]&b[3],p[6],p[7]);
 endmodule
 
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-3/assets/167178811/29696d5d-e8b8-4214-8c03-4930f9437233)
 
-#RESULT:
+## RESULT:
 
 The simulate and synthesis multiplier using VIVADO is successfully verified.
