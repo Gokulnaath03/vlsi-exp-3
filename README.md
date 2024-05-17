@@ -12,14 +12,14 @@
 
 ## PROCEDURE:
 
-STEP:1 Start the Vivado, Select and Name the New project.
-STEP:2 Select the device family, device, package and speed.
+STEP:1 Start the Vivado, Select and Name the New project.<br>
+STEP:2 Select the device family, device, package and speed.<br>
 STEP:3 Select new source in the New Project and select Verilog Module as the
-Source type.
+Source type.<br>
 STEP:4 Type the File Name and Click Next and then finish button. Type the code
-and save it.
+and save it.<br>
 STEP:5 Select the Behavioural Simulation in the Source Window and click the check
-syntax.
+syntax.<br>
 STEP:6 Click the simulation to simulate the program and give the inputs and verify
 the outputs as per the truth table.
 
